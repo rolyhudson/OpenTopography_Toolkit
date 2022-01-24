@@ -31,7 +31,7 @@ namespace BH.Adapter.OpenTopography
                 return new List<object> { response };
             }
 
-            Engine.Reflection.Compute.RecordError("This type of request is not supported.");
+            Engine.Base.Compute.RecordError("This type of request is not supported.");
             return new List<object>();
         }
 

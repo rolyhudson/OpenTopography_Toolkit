@@ -17,7 +17,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\OpenTopography_Engine\OpenTopography_Engine.csproj" />
-    <ProjectReference Include="..\OpenTopography_oM\OpenTopography_oM.csproj"/>
+    <ProjectReference Include="..\OpenTopography_oM\OpenTopography_oM.csproj" />
   </ItemGroup>
 
   <ItemGroup>
@@ -50,9 +50,6 @@
     </Reference>
     <Reference Include="Reflection_Engine">
       <HintPath>C:\ProgramData\BHoM\Assemblies\Reflection_Engine.dll</HintPath>
-    </Reference>
-    <Reference Include="Reflection_oM">
-      <HintPath>C:\ProgramData\BHoM\Assemblies\Reflection_oM.dll</HintPath>
     </Reference>
   </ItemGroup>
 </Project>
