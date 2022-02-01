@@ -12,5 +12,7 @@ namespace BH.oM.Adapter.OpenTopography
     public class OpenTopographyConfig : ActionConfig
     {
         public virtual DemType DemType { get; set; } = DemType.AW3D30;
+
+        public virtual string API_Key { get; set; } = "";
     }
 }

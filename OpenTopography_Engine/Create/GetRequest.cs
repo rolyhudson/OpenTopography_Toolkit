@@ -34,6 +34,7 @@ namespace BH.Engine.Adapter.OpenTopography
             parameters.Add("south", latDom.Min);
             parameters.Add("west",  lonDom.Min);
             parameters.Add("east", lonDom.Max);
+            parameters.Add("API_Key", config.API_Key);
             return parameters;
         }
 
